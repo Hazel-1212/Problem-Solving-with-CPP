@@ -1,3 +1,21 @@
+/*Write a program that implements the maze using nodes and pointers.
+Each node in the graph will correspond to a node in your code that is
+implemented in the form of a class or struct. The edges correspond to
+bidirectional links that point from one node to another. Start the user
+in node A. The user’s goal is to reach the finish in node L. The program
+should output possible moves in the north, south, east, or west direction.*/
+
+/*Sample execution is shown here.
+You are in room A of a maze of twisty little passages, all alike.
+You can go (E)ast, (S)outh, or (Q)uit.
+E
+You are in room B of a maze of twisty little passages, all alike.
+You can go (W)est, (S)outh, or (Q)uit.
+S
+You are in room F of a maze of twisty little passages, all alike.
+You can go (E)ast, (N)orth, or (Q)uit.
+E*/
+
 #include<iostream>
 using namespace std;
 class Node{	
